@@ -4,9 +4,9 @@
 
 
     <parent>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-spring-boot</artifactId>
-        <version>5.22.0</version>
+        <version>5.22.1</version>
     </parent>
 
     <artifactId>activiti-spring-boot-starters</artifactId>

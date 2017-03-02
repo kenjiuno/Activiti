@@ -8,10 +8,10 @@
   <packaging>jar</packaging>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
 
   <properties>
@@ -106,27 +106,27 @@
   <dependencies>
     <!-- Activiti -->
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-spring</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-bpmn-converter</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-json-converter</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-simple-workflow</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-crystalball</artifactId>
     </dependency>
 
@@ -143,7 +143,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.vaadin</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>vaadin</artifactId>
     </dependency>
     <dependency>

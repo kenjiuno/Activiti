@@ -7,16 +7,16 @@
   <artifactId>activiti-simple-workflow-alfresco</artifactId>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
 
   <dependencies>
     <!-- BPMN model conversion -->
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-simple-workflow</artifactId>
     </dependency>
     <!-- Testing -->
@@ -26,7 +26,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-engine</artifactId>
       <scope>test</scope>
     </dependency>

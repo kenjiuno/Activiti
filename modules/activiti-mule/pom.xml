@@ -7,10 +7,10 @@
   <artifactId>activiti-mule</artifactId>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
   
   <properties>
@@ -118,11 +118,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-spring</artifactId>
     </dependency>
     <dependency>

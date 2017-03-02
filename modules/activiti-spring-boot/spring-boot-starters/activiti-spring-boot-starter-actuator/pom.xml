@@ -4,29 +4,29 @@
 
 
     <parent>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-spring-boot-starters</artifactId>
-        <version>5.22.0</version>
+        <version>5.22.1</version>
     </parent>
 
     <artifactId>activiti-spring-boot-starter-actuator</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-spring-boot-starter-basic</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-image-generator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-bpmn-model</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-bpmn-layout</artifactId>
         </dependency>
         <dependency>

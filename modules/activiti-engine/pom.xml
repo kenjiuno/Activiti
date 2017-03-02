@@ -7,23 +7,23 @@
   <artifactId>activiti-engine</artifactId>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-bpmn-converter</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-process-validation</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-image-generator</artifactId>
     </dependency>
     <dependency>
@@ -519,7 +519,7 @@
       </build>
       <dependencies>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-spring</artifactId>
             <scope>test</scope>
         </dependency>

@@ -188,93 +188,93 @@
         <scope>test</scope>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-engine</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-spring</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-bpmn-model</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-bpmn-converter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-json-converter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-explorer</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-simple-workflow</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-modeler</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-common-rest</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-diagram-rest</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-rest</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-crystalball</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-webapp-rest2</artifactId>
         <type>war</type>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-cxf</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-bpmn-layout</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-process-validation</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-image-generator</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-jmx</artifactId>
         <version>${project.version}</version>
       </dependency>

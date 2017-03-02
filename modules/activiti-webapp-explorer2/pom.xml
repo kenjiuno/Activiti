@@ -8,10 +8,10 @@
   <packaging>war</packaging>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
 
   <properties>
@@ -157,19 +157,19 @@
 
     <!-- Activiti -->
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-spring</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-explorer</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-modeler</artifactId>
       <exclusions>
         <exclusion>
@@ -179,11 +179,11 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-diagram-rest</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-simple-workflow</artifactId>
     </dependency>
     

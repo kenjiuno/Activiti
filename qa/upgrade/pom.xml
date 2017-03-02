@@ -4,20 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
 
   <name>Activiti - Upgrade Fetcher</name>
-  <groupId>org.activiti</groupId>
+  <groupId>org.kenjiuno</groupId>
   <artifactId>activiti-upgrade-fetcher</artifactId>
-  <version>5.22.0</version>
+  <version>5.22.1</version>
 
   <parent>
-    <groupId>org.activiti</groupId>
+    <groupId>org.kenjiuno</groupId>
     <artifactId>activiti-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>5.22.0</version>
+    <version>5.22.1</version>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>org.activiti</groupId>
+      <groupId>org.kenjiuno</groupId>
       <artifactId>activiti-engine</artifactId>
       <version>${activiti.upgrade.version}</version>
     </dependency>

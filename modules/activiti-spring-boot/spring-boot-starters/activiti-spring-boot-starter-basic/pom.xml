@@ -4,9 +4,9 @@
 
 
     <parent>
-        <groupId>org.activiti</groupId>
+        <groupId>org.kenjiuno</groupId>
         <artifactId>activiti-spring-boot-starters</artifactId>
-        <version>5.22.0</version>
+        <version>5.22.1</version>
     </parent>
 
     <artifactId>activiti-spring-boot-starter-basic</artifactId>
@@ -30,11 +30,11 @@
 
         <!-- common -->
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-spring</artifactId>
 
         </dependency>
@@ -45,7 +45,7 @@
 
         <!-- rest api -->
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-rest</artifactId>
             <exclusions>
                 <exclusion>
@@ -60,7 +60,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-common-rest</artifactId>
             <optional>true</optional>
         </dependency>
@@ -81,17 +81,17 @@
 
         <!-- actuator-->
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-image-generator</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-bpmn-model</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.activiti</groupId>
+            <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-bpmn-layout</artifactId>
             <optional>true</optional>
         </dependency>
