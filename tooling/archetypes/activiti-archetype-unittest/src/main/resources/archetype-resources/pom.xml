@@ -10,7 +10,7 @@
 		<dependency>
 			<groupId>org.kenjiuno</groupId>
 			<artifactId>activiti-engine</artifactId>
-			<version>5.22.1</version>
+			<version>5.22.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
