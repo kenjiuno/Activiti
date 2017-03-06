@@ -20,7 +20,6 @@
         <dependency>
             <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-rest</artifactId>
-            <version>${project.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -35,7 +34,6 @@
           <dependency>
             <groupId>org.kenjiuno</groupId>
             <artifactId>activiti-common-rest</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.kenjiuno</groupId>

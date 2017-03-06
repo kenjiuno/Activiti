@@ -75,7 +75,6 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>1.7.5</version>
             <scope>test</scope>
         </dependency>
 

@@ -43,7 +43,6 @@
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
             <scope>test</scope>
-            <version>1.7.5</version>
         </dependency>
 
         <dependency>
