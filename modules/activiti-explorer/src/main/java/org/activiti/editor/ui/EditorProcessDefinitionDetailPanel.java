@@ -343,12 +343,16 @@ public class EditorProcessDefinitionDetailPanel extends DetailPanel {
     byte[] bpmnBytes = new BpmnXMLConverter().convertToXML(model);
     
     String processName = modelData.getName() + ".bpmn20.xml";
-    Deployment deployment = repositoryService.createDeployment()
-            .name(modelData.getName())
-            .addString(processName, new String(bpmnBytes))
-            .deploy();
+    try {
+      Deployment  deployment = repositoryService.createDeployment()
+        .name(modelData.getName())
+        .addString(processName, new String(bpmnBytes, "UTF-8"))
+        .deploy();
 
-    ExplorerApp.get().getViewManager().showDeploymentPage(deployment.getId());
+      ExplorerApp.get().getViewManager().showDeploymentPage(deployment.getId());
+    } catch (UnsupportedEncodingException e) {
+      throw new RuntimeException(e);
+    }
   }
 
 }
