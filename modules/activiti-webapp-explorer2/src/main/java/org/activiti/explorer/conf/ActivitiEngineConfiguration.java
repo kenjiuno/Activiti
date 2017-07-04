@@ -54,7 +54,7 @@ public class ActivitiEngineConfiguration {
     }
     
     // Connection settings
-    ds.setUrl(environment.getProperty("jdbc.url", "jdbc:h2:mem:activiti;DB_CLOSE_DELAY=1000"));
+    ds.setUrl(environment.getProperty("jdbc.url", "jdbc:h2:~/activiti;DB_CLOSE_DELAY=1000"));
     ds.setUsername(environment.getProperty("jdbc.username", "sa"));
     ds.setPassword(environment.getProperty("jdbc.password", ""));
     
