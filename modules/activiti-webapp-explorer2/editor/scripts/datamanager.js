@@ -419,7 +419,7 @@ var DataManager = {
 			
 			attributes.each(function(attribute) {
 				result += ' ' + attribute.nodeName + '="' +
-					attribute.nodeValue + '"';});
+					(attribute.nodeValue + "").escapeHTML() + '"';});
 			
 			// close if no children.
 			
