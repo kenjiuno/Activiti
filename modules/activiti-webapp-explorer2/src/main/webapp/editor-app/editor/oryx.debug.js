@@ -923,7 +923,7 @@ var DataManager = {
 			
 			attributes.each(function(attribute) {
 				result += ' ' + attribute.nodeName + '="' +
-					(attribute.nodeValue + "").escapeHTML() + '"';});
+					(attribute.nodeValue + "").escapeHTML().replace(/\"/g,"&quot;") + '"';});
 			
 			// close if no children.
 			
