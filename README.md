@@ -12,3 +12,7 @@ chdir H:\Dev\Activiti
 mvn -Pdistro -DskipTests -Dmaven.javadoc.skip package
 ```
 
+On changing gwt parts:
+```
+mvn -Pdistro,compile-widgetset -DskipTests -Dmaven.javadoc.skip package
+```
