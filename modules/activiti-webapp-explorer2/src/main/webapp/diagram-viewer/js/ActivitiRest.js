@@ -1,7 +1,7 @@
 var ActivitiRest = {
 	options: {},
 	getProcessDefinitionByKey: function(processDefinitionKey, callback) {
-		var url = Lang.sub(this.options.processDefinitionByKeyUrl, {processDefinitionKey: processDefinitionKey});
+		var url = Lang.sub(this.options.processDefinitionByKeyUrl, {processDefinitionKey: encodeURIComponent(processDefinitionKey)});
 		
 		$.ajax({
 			url: url,
@@ -49,7 +49,7 @@ var ActivitiRest = {
 	},
 	
 	getHighLights: function(processInstanceId, callback) {
-		var url = Lang.sub(this.options.processInstanceHighLightsUrl, {processInstanceId: processInstanceId});
+		var url = Lang.sub(this.options.processInstanceHighLightsUrl, {processInstanceId: encodeURIComponent(processInstanceId)});
 		
 		$.ajax({
 			url: url,
