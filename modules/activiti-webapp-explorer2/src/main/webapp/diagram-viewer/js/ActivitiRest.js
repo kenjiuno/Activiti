@@ -9,7 +9,8 @@ var ActivitiRest = {
 			cache: false,
 			async: true,
 			success: function(data, textStatus) {
-				var processDefinition = data;
+				var responseJSON = data;
+				var processDefinition = responseJSON.processDefinition;
 				if (!processDefinition) {
 					console.error("Process definition '" + processDefinitionKey + "' not found");
 				} else {
@@ -24,7 +25,7 @@ var ActivitiRest = {
 	},
 	
 	getProcessDefinition: function(processDefinitionId, callback) {
-		var url = Lang.sub(this.options.processDefinitionUrl, {processDefinitionId: processDefinitionId});
+		var url = Lang.sub(this.options.processDefinitionUrl, {processDefinitionId: encodeURIComponent(processDefinitionId)});
 		
 		$.ajax({
 			url: url,
